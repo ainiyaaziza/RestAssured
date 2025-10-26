@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-26T16:38:26 WIB" name="Surefire suite" finished-at="2025-10-26T16:38:32 WIB" duration-ms="5136">
+    <groups>
+    </groups>
+    <test started-at="2025-10-26T16:38:26 WIB" name="Surefire test" finished-at="2025-10-26T16:38:32 WIB" duration-ms="5136">
+      <class name="tests.LoginTest">
+        <test-method signature="testValidLogin()[pri:0, instance:tests.LoginTest@7f010382]" started-at="2025-10-26T16:38:31 WIB" name="testValidLogin" finished-at="2025-10-26T16:38:31 WIB" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.DeleteProductTest">
+        <test-method is-config="true" signature="setupAndCreateProduct()[pri:0, instance:tests.DeleteProductTest@161479c6]" started-at="2025-10-26T16:38:31 WIB" name="setupAndCreateProduct" finished-at="2025-10-26T16:38:31 WIB" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAndCreateProduct -->
+        <test-method signature="testDeleteProductWithAuth()[pri:0, instance:tests.DeleteProductTest@161479c6]" started-at="2025-10-26T16:38:31 WIB" name="testDeleteProductWithAuth" finished-at="2025-10-26T16:38:31 WIB" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteProductWithAuth -->
+        <test-method signature="testDeleteWithoutTokenShouldFail()[pri:0, instance:tests.DeleteProductTest@161479c6]" started-at="2025-10-26T16:38:31 WIB" name="testDeleteWithoutTokenShouldFail" finished-at="2025-10-26T16:38:31 WIB" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteWithoutTokenShouldFail -->
+      </class> <!-- tests.DeleteProductTest -->
+      <class name="tests.AddProductTest">
+        <test-method signature="testAddProductSuccessfully()[pri:0, instance:tests.AddProductTest@3901d134]" started-at="2025-10-26T16:38:26 WIB" name="testAddProductSuccessfully" finished-at="2025-10-26T16:38:31 WIB" duration-ms="4306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddProductSuccessfully -->
+      </class> <!-- tests.AddProductTest -->
+      <class name="tests.UpdateProductTest">
+        <test-method is-config="true" signature="setupAndCreateProduct()[pri:0, instance:tests.UpdateProductTest@1e802ef9]" started-at="2025-10-26T16:38:31 WIB" name="setupAndCreateProduct" finished-at="2025-10-26T16:38:31 WIB" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAndCreateProduct -->
+        <test-method signature="testUpdateProductWithAuth()[pri:0, instance:tests.UpdateProductTest@1e802ef9]" started-at="2025-10-26T16:38:31 WIB" name="testUpdateProductWithAuth" finished-at="2025-10-26T16:38:31 WIB" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateProductWithAuth -->
+        <test-method signature="testUpdateWithoutTokenShouldFail()[pri:0, instance:tests.UpdateProductTest@1e802ef9]" started-at="2025-10-26T16:38:31 WIB" name="testUpdateWithoutTokenShouldFail" finished-at="2025-10-26T16:38:32 WIB" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateWithoutTokenShouldFail -->
+      </class> <!-- tests.UpdateProductTest -->
+      <class name="tests.GetProductTest">
+        <test-method signature="testGetAllProducts()[pri:0, instance:tests.GetProductTest@4313f5bc]" started-at="2025-10-26T16:38:31 WIB" name="testGetAllProducts" finished-at="2025-10-26T16:38:31 WIB" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllProducts -->
+      </class> <!-- tests.GetProductTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

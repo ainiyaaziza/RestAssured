@@ -1,0 +1,5 @@
+tests\AddProductTest.class
+tests\GetProductTest.class
+tests\UpdateProductTest.class
+tests\LoginTest.class
+tests\DeleteProductTest.class
